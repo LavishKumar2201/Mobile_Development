@@ -1,0 +1,49 @@
+<!--
+    Assignment 6
+   Student Name: Lavish Kumar
+   Student ID: 0823298 
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Web Form</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="webform.css">
+        <link href="https://fonts.googleapis.com/css2?&family=Work+Sans:wght@600&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>Web Form</h1>
+        </header>
+        <main>
+            
+                <form action="#" method="get">
+                    <label for="fname">Full Name</label>
+                    <input type="text" name="fname" id="fname" required/>
+
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" required/>
+
+                    <label for="tel">Phone Number</label>
+                    <input type="tel" name="tel" id="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Format: 000-000-0000" required/>
+
+                    <label for="comment">Message</label>
+                    <textarea name="comment" id="comment" placeholder="type your message here"></textarea>
+                    <section>
+                    <input type="checkbox" id="myCheckbox">
+                    <label for="myCheckbox">Yes</label>
+
+                    <input type="checkbox" id="myCheckbox">
+                    <label for="myCheckbox">No</label>
+                </section>
+
+                    <input type="submit" value="Submit" />
+                </form>
+        </main>
+        <footer>
+            <p>Copyright 2023 Lavish Kumar</p>
+        </footer>
+    </body>
+</html>
+
